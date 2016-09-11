@@ -40,10 +40,11 @@ do
     echo "Type ^C at any time to exit timer"
     echo
 
+    notify-send "Pomodoro" "Time to get to work" -i $rel_path -t 10000
+
     for a in 1 2 3
     do
         echo "Entering pomodoro $a of 4 for 25 minutes"
-        notify-send "Pomodoro" "Time to get to work" -i $rel_path -t 10000
         sleep 300 && echo "20 minutes remaining"
         sleep 300 && echo "15 minutes remaining"
         sleep 300 && echo "10 minutes remaining"
