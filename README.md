@@ -5,7 +5,7 @@ This is a very simple timer based on the [Pomodoro Technique](https://en.wikiped
 
 I found the Pomodoro Technique a few years ago, while I was having a lot of trouble with time management when it came to working and studying. I found a decent app for my Android phone, but nothing I could stick with for Linux desktop. So, I thought, I'll just have to make one myself.
 
-This script is a great combination between the convenience of desktop notifications and the simplicity of a pure CLI script. Nothing fancy, just function and a little bit of love. 
+This script is a great combination between the convenience of desktop notifications and the simplicity and (nearly) instantaneous loading of a pure CLI script. Nothing fancy, just function and a little bit of love. 
 
 Please submit any bugs or feature requests to [https://github.com/Raindeer44/pomodoro-timer-bash/issues](https://github.com/Raindeer44/pomodoro-timer-bash/issues) Thank you.
 long.
