@@ -31,7 +31,7 @@ notify-send --version
 
 if something like `notify-send 0.7.6` returns, notify-osd is already installed
 
-To install notify-osd, type/copy/paste:
+Otherwise, to install notify-osd, type/copy/paste:
 
 ```
 sudo apt-get install notify-osd
@@ -39,7 +39,7 @@ sudo apt-get install notify-osd
 
 #### Install
 
-Navigate to whatever directory you want the script to run from , then type/copy/paste:
+Navigate to whatever directory you want the script to run from, then type/copy/paste:
 
 ```
 git clone https://github.com/Raindeer44/sas-timer.git
@@ -53,7 +53,7 @@ chmod u+x sas.sh
 
 #### Run
 
-Now you're ready to go! To run the script, simply type/copy/paste:
+Now you're ready to go! To run the script, simply run from the install directory:
 
 ```
 /path/to/install/dir/sas-timer/sas.sh
