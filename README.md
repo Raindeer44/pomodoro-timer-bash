@@ -1,4 +1,4 @@
-## A Very Simple Pomodoro Timer
+## A Sweet and Simple Pomodoro Timer
 #### For bash
 ---
 This is a very simple timer based on the [Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Technique), a time management method which breaks down work or study into 25 minute intervals, with 5 minute breaks in between. Every fourth break is 20 minutes

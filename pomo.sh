@@ -3,7 +3,7 @@
 clear
 
 echo
-echo "Pomodoro Timer"
+echo "A Sweet and Simple Pomodoro Timer"
 echo
 
 re='^[0-9]+$'
