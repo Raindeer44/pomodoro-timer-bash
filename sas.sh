@@ -75,4 +75,8 @@ do
 
 done
 
+echo
+echo "End of timer"
+echo "Thank you for using the SAS Pomodoro Timer"
+echo
 notify-send "End of Pomodoro Timer" "Please run process again for more cycles" -i $rel_path -t 17000
