@@ -1,6 +1,6 @@
 ## A Very Simple Pomodoro Timer
 #### For bash
-----------
+---
 This is a very simple timer based on the [Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Technique),
 a time management method which breaks down work or study into 25 minute
 intervals, with 5 minute breaks in between. Every fourth break is 20 minutes
@@ -9,7 +9,7 @@ long.
 <br>
 
 ### How this timer works
-----
+---
 This is a very easy command line script for bash. The script will ask you how
 many cycles (four pomodoros at 25 mins each) you would like to run the timer
 for. In the terminal, the script will count down for every five minutes. At
@@ -18,7 +18,7 @@ A similar notification will appear at the end of each break.
 <br>
 <br>
 
-### How to run
+### How to use
 ---
 *Requires notify-osd package*
 
@@ -35,3 +35,34 @@ To install notify-osd, type/copy/paste:
 ```
 sudo apt-get install notify-osd
 ```
+
+#### Install
+
+Navigate to whatever directory you want the script to run from , then type/copy/paste:
+
+```
+git clone https://github.com/Raindeer44/pomodoro-timer-bash.git
+```
+```
+cd pomodoro-timer-bash/
+```
+```
+chmod u+x pomo.sh
+```
+
+#### Run
+
+Now you're ready to go! To run the script, simply type/copy/paste:
+
+```
+/path/to/install/dir/pomodoro-timer-bash/pomo.sh
+```
+
+<br>
+<br>
+
+### License
+---
+This project is free software. There is no warranty; not even for merchantability or fitness for a particular purpose.
+
+You may use, copy, modify and redistribute all files included in this distribution, individually or in aggregate, subject to the terms and conditions of the MIT license. See the file `LICENSE.txt` for details.
