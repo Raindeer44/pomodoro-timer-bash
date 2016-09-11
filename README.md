@@ -7,7 +7,6 @@ I found the Pomodoro Technique a few years ago, while I was having a lot of trou
 This script is a great combination between the convenience of desktop notifications and the simplicity and (nearly) instantaneous loading of a pure CLI script. Nothing fancy, just function and a little bit of love.
 
 Please submit any bugs or feature requests to [https://github.com/Raindeer44/sas-timer/issues](https://github.com/Raindeer44/sas-timer/issues) Thank you.
-long.
 <br>
 <br>
 
