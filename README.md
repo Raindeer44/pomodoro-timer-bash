@@ -1,7 +1,11 @@
 ## A Sweet and Simple Pomodoro Timer
 #### For bash
 ---
-This is a very simple timer based on the [Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Technique), a time management method which breaks down work or study into 25 minute intervals, with 5 minute breaks in between. Every fourth break is 20 minutes
+This is a very simple timer based on the [Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Technique), a time management method which breaks down work or study into 25 minute intervals, with 5 minute breaks in between. Every fourth break is 20 minutes.
+
+I found the Pomodoro Technique a few years ago, while I was having a lot of trouble with time management when it came to working and studying. I found a decent app for my Android phone, but nothing I could stick with for Linux desktop. So, I thought, I'll just have to make one myself.
+
+This script is a great combination between the convenience of desktop notifications and the simplicity of a pure CLI script. Nothing fancy, just function and a little bit of love. 
 
 Please submit any bugs or feature requests to [https://github.com/Raindeer44/pomodoro-timer-bash/issues](https://github.com/Raindeer44/pomodoro-timer-bash/issues) Thank you.
 long.
