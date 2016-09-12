@@ -24,25 +24,38 @@ This is a lovely little command line script for bash. The script will ask you ho
 * 20 minutes: long break
 
 At the end of a pomodoro, a notification will appear reminding you to take a break. A similar notification will appear at the end of each break. If you ever miss a notification, or would like an estimate of time remaining, check out the terminal where the script is running. Every section of the timer logs its information and a 5-minute countdown with a 1-minute warning.
+
+With each major notification comes a sound. Several sound files are included in the `assets/` directory. Feel free to add any more you come across, just make sure it is compatible with aplay. The active sound can be changed in the settings section of `sas.sh`. To preview a sound, use
+
+    aplay assets/soundfile.wav
+
 <br>
 <br>
 
 ### How to run
 ---
-*Requires notify-osd package*
+*Requires notify-osd and aplay packages*
 
 To check if notify-osd is already installed, type/copy/paste:
 
-
     notify-send --version
 
-
-if something like `notify-send 0.7.6` returns, notify-osd is already installed
+If something like `notify-send 0.7.6` returns, notify-osd is already installed
 
 Otherwise, to install notify-osd, type/copy/paste:
 
 
     sudo apt-get install notify-osd
+
+To check if aplay is already installed, type/copy/paste:
+
+    aplay --version
+
+If something like `aplay: version 1.0.27.2 by Jeroslav Kysela` returns, aplay is already installed.
+
+Otherwise, to install aplay, type/copy/paste:
+
+    sudo apt-get install aplay
 
 
 #### Install
@@ -60,6 +73,8 @@ Navigate to whatever directory you want the script to run from, then type/copy/p
 Now you're ready to go! To run the script, simply run from the install directory:
 
     /path/to/install/dir/sas-timer/sas.sh
+
+For a shorter command, create a bash alias.
 
 <br>
 <br>
