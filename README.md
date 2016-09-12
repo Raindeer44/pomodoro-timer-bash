@@ -34,7 +34,7 @@ With each major notification comes a sound. Several sound files are included in 
 
 ### How to run
 ---
-*Requires notify-osd and aplay packages*
+*Requires notify-osd packages*
 
 To check if notify-osd is already installed, type/copy/paste:
 
@@ -46,16 +46,6 @@ Otherwise, to install notify-osd, type/copy/paste:
 
 
     sudo apt-get install notify-osd
-
-To check if aplay is already installed, type/copy/paste:
-
-    aplay --version
-
-If something like `aplay: version 1.0.27.2 by Jeroslav Kysela` returns, aplay is already installed.
-
-Otherwise, to install aplay, type/copy/paste:
-
-    sudo apt-get install aplay
 
 
 #### Install
